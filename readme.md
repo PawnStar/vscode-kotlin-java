@@ -1,5 +1,7 @@
 # Kotlin with VSCode
 
+## Standalone compiler
+
 1. Download the standalone Kotlin [compiler](https://github.com/JetBrains/kotlin/releases/tag/v1.4.20)
 
 2. Add its bin/ directory to your path
@@ -50,3 +52,10 @@ Replace `main.kt` with wherever your Kotlin file is.
 
 9. Try running the debug launch profile, it should attempt to build the JAR
 before launching the debugger.
+
+## Alternative With Maven/Gradle
+
+I don't know much about using Maven or Gradle, but if you have a project set up
+with it one of them, this other [Kotlin Extension](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)
+is supposed to provide a full debugging experience.  I tried to get it to work
+with the standalone compiler, but had little success.
