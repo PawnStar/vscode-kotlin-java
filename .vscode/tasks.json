@@ -4,7 +4,7 @@
     {
       "label": "Build Kotlin",
       "type": "shell",
-      "command": "kotlinc main.kt -include-runtime -d out/main.jar"
+      "command": "mkdir out && kotlinc main.kt -include-runtime -d out/main.jar"
     }
   ]
 }
