@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Debug (Launch)",
+      "request": "launch",
+      "classPaths": [
+        "./out/main.jar"
+      ],
+      "mainClass": "MainKt",
+      "preLaunchTask": "Build Kotlin"
+    }
+  ]
+}
